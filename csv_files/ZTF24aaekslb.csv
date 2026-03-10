@@ -1,0 +1,2 @@
+tid,mjd,candid,fid,pid,diffmaglim,isdiffpos,nid,distnr,magpsf,magap,sigmapsf,sigmagap,ra,dec,rb,rbversion,drb,magapbig,sigmagapbig,rfid,has_stamp,corrected,dubious,step_id_corr,phase,oid
+ztf,60351.55611110013,2597556112415015024,2,2597556112415,19.483643,1,2597,1.461194,18.46837,18.2523,0.15792711,0.1048,278.1375351,-6.8965196,0.62285715,t17_f5_c3,0.99933004,18.4301,0.1562,1429120224,True,False,False,23.12.x,0.0,ZTF24aaekslb
