@@ -105,7 +105,7 @@ class HeteroscedasticGP:
 
 def fit_all_gps(curves_data):
     fitted = []
-    for oid, t, y, raw_t, raw_y in tqdm(curves_data, desc="Fitting GPs"):
+    for oid, t, y, raw_t, raw_y, _, _ in tqdm(curves_data, desc="Fitting GPs"):
         try:
             gp = HeteroscedasticGP(n_iter=3).fit(t, y)
             fitted.append((oid, gp, t, y))

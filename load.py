@@ -29,6 +29,6 @@ def load_curves(csv_dir, min_pts=20, max_pts=250):
         t_norm = (t - t.min()) / (t.max() - t.min() + 1e-9)
         mag_norm = (mag - mag.min()) / (mag.max() - mag.min() + 1e-9)
 
-        curves_data.append((oid, t_norm, mag_norm, t, mag))
+        curves_data.append((oid, t_norm, mag_norm, t, mag, df['ra'][0], df['dec'][0]))
 
     return curves_data
